@@ -37,9 +37,9 @@ This project is collaboratively developed by a **3-member group** using feature 
 
 | **Team Member** | **Role & Assigned Module** | **Git Branch** | **Key Responsibilities** |
 | :--- | :--- | :--- | :--- |
-| **Mauli** | **Repo Lead, Physical Memory & Segment Table Manager** | `feat/memory-mauli` | Repository architecture, shared data models (`models.py`), physical memory allocation/deallocation, hole coalescing, external fragmentation tracking (**CO4**), and report integration. |
-| **Aswik** | **Address Translation & Memory Protection Engine** | `feat/translator-aswik` | Logical-to-physical address translation (`translator.py`), segment limit validation, `R`/`W`/`X` permission enforcement, fault diagnostics (**CO4, CO5**), and translator unit tests. |
-| **Vishnu** | **Workload Generator, Metrics & Test Suite** | `feat/metrics-vishnu` | Automated test workloads (`metrics.py`, `tests/`), comparative metric analysis (utilization, fault rates, fragmentation), execution logs, and demo screenshots. |
+| **Chandra Mauli Tiwari** | **Repo Lead, Physical Memory & Segment Table Manager** | `feat/memory-mauli` | Repository architecture, shared data models (`models.py`), physical memory allocation/deallocation, hole coalescing, external fragmentation tracking (**CO4**), and report integration. |
+| **Nathani Aswik** | **Address Translation & Memory Protection Engine** | `feat/translator-aswik` | Logical-to-physical address translation (`translator.py`), segment limit validation, `R`/`W`/`X` permission enforcement, fault diagnostics (**CO4, CO5**), and translator unit tests. |
+| **Vennapusa Vishnu Vardhana Reddy** | **Workload Generator, Metrics & Test Suite** | `feat/metrics-vishnu` | Automated test workloads (`metrics.py`, `tests/`), comparative metric analysis (utilization, fault rates, fragmentation), execution logs, and demo screenshots. |
 
 ---
 
@@ -120,7 +120,7 @@ OS---Segmentation-based-Memory-Management/
 
 ```bash
 # 1. Clone the repository (replace <your-username> with the GitHub owner username)
-git clone https://github.com/<your-username>/OS---Segmentation-based-Memory-Management.git
+git clone https://github.com/CodeAlchemistJee/OS---Segmentation-based-Memory-Management.git
 cd OS---Segmentation-based-Memory-Management
 
 # 2. Run the interactive simulator / demo suite
